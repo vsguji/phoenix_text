@@ -1,6 +1,6 @@
 name: phoenix_text
 description: phoenix 将做为企业级基础组件:Text组件,提供项目支持。
-version: 0.0.1
+version: 1.0.0
 homepage: 'https://github.com/vsguji/phoenix_text.git'
 
 environment:
