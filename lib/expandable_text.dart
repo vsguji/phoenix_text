@@ -12,11 +12,11 @@ typedef TextExpandedCallback = Function(bool);
 ///     点击更多，则显示全部文本
 ///
 /// ```dart
-///   BrnExpandableText(
+///   ExpandableText(
 ///      text: '在文本的右下角有更多或者收起按钮',
 ///   )
 ///
-///   BrnExpandableText(
+///   ExpandableText(
 ///      text: '具备展开收起功能的文字面板，在文本的右下角有更多或者收起按钮',
 ///      maxLines: 2,
 ///      onExpanded: (value) {
@@ -27,8 +27,8 @@ typedef TextExpandedCallback = Function(bool);
 /// ```
 ///
 /// 相关文本组件如下:
-///  * [BrnBubbleText], 气泡背景的展开收起文本组件
-///  * [BrnInsertInfo], 气泡背景的文本组件
+///  * [BubbleText], 气泡背景的展开收起文本组件
+///  * [InsertInfo], 气泡背景的文本组件
 ///
 class ExpandableText extends StatefulWidget {
   ///显示的文本
